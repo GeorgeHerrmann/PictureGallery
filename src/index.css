@@ -1,0 +1,17 @@
+/* This file likely doesn't need to be changed. If you want styling that affects the whole website, do that in App.css */
+
+body {
+  margin: 0;
+  /* These are the fonts for the whole website, feel free to change */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased; /* Dont change, part of React */
+  -moz-osx-font-smoothing: grayscale; /* Dont change, part of React */
+}
+
+/* Not sure what this is for but removing it caused compile errors so leave it i guess */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

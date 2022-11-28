@@ -1,0 +1,23 @@
+/* Div container for the new component form */
+.newComponent {
+ padding: 5% 5% 0 5%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 20%;
+  background-color: #3a3b3c;
+}
+
+/* h2 that says "New Component" at the top of the page */
+.newComponentHeader {
+    margin: 0;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    background-color: #3a3b3c;
+}
+
+/* The form to create a new component, unique to this form */
+#newCompForm {
+    padding: 10% 10%;
+}

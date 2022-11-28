@@ -1,0 +1,32 @@
+/* The container for the whole Edit Components page */
+#editComp {
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    /*background-color: white; */
+    /*border: 10px solid #fbabfb; */
+}
+
+/* The div container for each individual form to edit a component */
+.newComponent {
+    display: flex;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+}
+
+/* The h2 title of each form to edit a component */
+.newComponentHeader {
+    color: white;
+    flex-basis: 100%;
+    padding-bottom: 10px;
+}
+
+/* The form to edit a component, unique to this form */
+#editCompForm {
+    padding: 50px 50px;
+}
+

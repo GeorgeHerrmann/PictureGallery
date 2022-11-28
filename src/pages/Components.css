@@ -1,0 +1,59 @@
+/* The div that holds all the "components" */
+#compContainer {
+    display: flex;
+    margin-top: 1%;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    /*border: 5px solid #fbabfb; */
+    
+}
+
+#header {
+    margin: 0;
+    color: #3a3b3c;
+    flex-basis: 100%;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+/* The heading on the Components page */
+h1 {
+    margin: 0;
+    color: #3a3b3c;
+    flex-basis: 100%;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+/* div for each individual component */
+.component {
+    margin: 20px;
+    padding: 2% 70px;
+    background-color: white;
+   /* border: 5px solid #D3D3D3; */
+    border-radius: 5px;
+}
+
+/* "header" or "title" of each component */
+.compheader {
+    font-size: 20px;
+    color: #7b7984;
+    padding-bottom: 20px;
+}
+
+/* paragraph text of each component */
+.comptext {
+    color: #7b7984;
+    padding-bottom: 20px;
+}
+
+/* the image of each component */
+.compimg {
+
+}
+
+/* The button to edit components on the "Components Page" */
+#editCompButton {
+
+}
