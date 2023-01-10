@@ -10,7 +10,7 @@ let UserModel = require('./models/UserSchema');
 const SECRET_JWT_CODE = "psmR3HuOihHKfqZymo1m";
 
 // Connecting to database
-let query = 'mongodb+srv://csci4300:csci4300@cluster0.lfzjpdo.mongodb.net/?retryWrites=true&w=majority'
+let query = 'placeholder'
  
 const db = (query);
 mongoose.Promise = global.Promise;
